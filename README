@@ -11,7 +11,15 @@ Then point your browser to:
 
 http://localhost:9000/
 
+--------------------------------------
 
+with Python 3:
+
+cd /path/to/mydir-with-index.html-in-it # for example: cd C:\BlocksCAD-development
+python -m http.server 9000
+localhost:9000
+
+--------------------------------------
 
 Developed with the sponsorship of the Defense Advanced Research Projects Agency (DARPA) and delivered to the U.S. Government with Unlimited Rights as defined in DFARS 252.227-7013. Approved for Public Release, Distribution Unlimited.
 
